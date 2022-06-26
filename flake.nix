@@ -31,6 +31,38 @@
   inputs."odbcn-v0_1_2".inputs.nixpkgs.follows = "nixpkgs";
   inputs."odbcn-v0_1_2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."odbcn-v0_1_3".dir   = "v0_1_3";
+  inputs."odbcn-v0_1_3".owner = "nim-nix-pkgs";
+  inputs."odbcn-v0_1_3".ref   = "master";
+  inputs."odbcn-v0_1_3".repo  = "odbcn";
+  inputs."odbcn-v0_1_3".type  = "github";
+  inputs."odbcn-v0_1_3".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."odbcn-v0_1_3".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."odbcn-v0_2_0".dir   = "v0_2_0";
+  inputs."odbcn-v0_2_0".owner = "nim-nix-pkgs";
+  inputs."odbcn-v0_2_0".ref   = "master";
+  inputs."odbcn-v0_2_0".repo  = "odbcn";
+  inputs."odbcn-v0_2_0".type  = "github";
+  inputs."odbcn-v0_2_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."odbcn-v0_2_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."odbcn-v0_2_1".dir   = "v0_2_1";
+  inputs."odbcn-v0_2_1".owner = "nim-nix-pkgs";
+  inputs."odbcn-v0_2_1".ref   = "master";
+  inputs."odbcn-v0_2_1".repo  = "odbcn";
+  inputs."odbcn-v0_2_1".type  = "github";
+  inputs."odbcn-v0_2_1".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."odbcn-v0_2_1".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."odbcn-v0_3_0".dir   = "v0_3_0";
+  inputs."odbcn-v0_3_0".owner = "nim-nix-pkgs";
+  inputs."odbcn-v0_3_0".ref   = "master";
+  inputs."odbcn-v0_3_0".repo  = "odbcn";
+  inputs."odbcn-v0_3_0".type  = "github";
+  inputs."odbcn-v0_3_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."odbcn-v0_3_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
